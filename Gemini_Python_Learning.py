@@ -3,15 +3,19 @@ import pandas as pd
 def start_learning():
     print("Welcome to Python learning!")
     course = input("Which topic would you like to learn? (e.g., Data Analysis, Web Development, Machine Learning): ")
-    print(f"Great choice! Let's start learning {course} together.")
+    
     if course.lower() == "data analysis":
-        Data_Analysis()
+            print(f"Great choice! Let's start learning {course} together.")
+            Data_Analysis()
     elif course.lower() == "web development":
-            print("We'll explore frameworks like Django and Flask.")
+            print(f"Great choice! Let's start learning {course} together.")
+            Web_Development()
     elif course.lower() == "machine learning":
-        print("We'll dive into libraries like Scikit-learn and TensorFlow.")
+            print(f"Great choice! Let's start learning {course} together.")
+            Machine_Learning()
+       
     else:
-        print("invalid input. Please first choose a valid topic to start learning.")
+        print("ohhh invalid input! Please first choose a valid topic to start learning.")
     
 def Data_Analysis():
         print("Data Analysis is a crucial skill in today's data-driven world.")
